@@ -1,4 +1,4 @@
-public class SquareAndCubes {
+public class Q6_SquareAndCubes {
     public static void main(String[] args) {
         System.out.println("Number\tSquare\tCube");
         for (int i = 0; i <= 10; i++) {
