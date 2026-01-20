@@ -23,7 +23,6 @@ class Employee {
     private String lastName;
     private double monthlySalary;
 
-    // Constructor
     public Employee(String firstName, String lastName, double monthlySalary) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -33,34 +32,33 @@ class Employee {
         }
     }
 
-    // Setters and Getters
-    public void setFirstName(String firstName) {
+    void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
-    public String getFirstName() {
+    String getFirstName() {
         return firstName;
     }
 
-    public void setLastName(String lastName) {
+    void setLastName(String lastName) {
         this.lastName = lastName;
     }
 
-    public String getLastName() {
+    String getLastName() {
         return lastName;
     }
 
-    public void setMonthlySalary(double monthlySalary) {
+    void setMonthlySalary(double monthlySalary) {
         if (monthlySalary > 0) {
             this.monthlySalary = monthlySalary;
         }
     }
 
-    public double getMonthlySalary() {
+    double getMonthlySalary() {
         return monthlySalary;
     }
 
-    public double getYearlySalary() {
+    double getYearlySalary() {
         return monthlySalary * 12;
     }
 }
