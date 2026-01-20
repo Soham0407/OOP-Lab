@@ -12,14 +12,12 @@ class Date {
     private int day;
     private int year;
 
-    // Constructor
     public Date(int month, int day, int year) {
         this.month = month;
         this.day = day;
         this.year = year;
     }
 
-    // Setters and Getters
     public void setMonth(int month) {
         this.month = month;
     }

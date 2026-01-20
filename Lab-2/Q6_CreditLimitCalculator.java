@@ -23,16 +23,12 @@ public class Q6_CreditLimitCalculator {
 
             double newBalance = beginningBalance + charges - credits;
 
-            // Display result
             System.out.println("\nAccount Number: " + accountNumber);
             System.out.printf("New Balance: %.2f\n", newBalance);
 
-            // Ask for next account number
             System.out.print("Enter account number or -1 to quit: ");
             accountNumber = input.nextInt();
         }
-
         input.close();
-        System.out.println("Program terminated.");
     }
 }

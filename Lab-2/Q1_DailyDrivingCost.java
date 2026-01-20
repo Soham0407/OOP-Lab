@@ -21,7 +21,7 @@ public class Q1_DailyDrivingCost {
         double tollsPerDay = input.nextDouble();
 
         double totalDailyCost = (milesDriven / milesPerGallon) * costPerGallon + feesPerDay + tollsPerDay;
-        System.out.printf("Total Cost Per Day: %.2f%n", totalDailyCost);
+        System.out.printf("Total Cost Per Day: %.2f/n", totalDailyCost);
 
         input.close();
     }

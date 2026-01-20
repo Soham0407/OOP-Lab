@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Q7_ParkingCharges {
 
-    // Method to calculate parking charge
     public static double calculateCharges(int hours) {
 
         double charge = 2.00;
