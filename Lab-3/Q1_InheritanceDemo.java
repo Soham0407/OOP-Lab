@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Figure {
     double r;
     double a;

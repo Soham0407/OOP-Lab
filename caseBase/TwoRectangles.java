@@ -16,7 +16,7 @@ public class TwoRectangles {
         double x2 = input.nextDouble();
         double y2 = input.nextDouble();
         double w2 = input.nextDouble();
-        double h2 = input.nextDouble();
+        double h2 = input.nextDouble();     
 
         double r1Left = x1 - w1 / 2;
         double r1Right = x1 + w1 / 2;
