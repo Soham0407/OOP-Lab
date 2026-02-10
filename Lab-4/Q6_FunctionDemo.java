@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 interface Function {
     int evaluate(int x);
 }
@@ -26,13 +28,25 @@ public class Q6_FunctionDemo {
 
     public static void main(String[] args) {
 
-        int[] input = { 10, 20, 30, 40 };
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter array size: ");
+        int n = sc.nextInt();
+
+        int[] input = new int[n];
+
+        System.out.println("Enter array elements:");
+        for (int i = 0; i < n; i++) {
+            input[i] = sc.nextInt();
+        }
 
         int[] output = halfArray(input);
 
         System.out.println("Result array:");
-        for (int value : output) {
-            System.out.print(value + " ");
+        for (int i = 0; i < output.length; i++) {
+            System.out.print(output[i] + " ");
         }
+
+        sc.close();
     }
 }
